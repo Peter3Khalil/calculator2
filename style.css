@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color:rgb(104, 177, 211);
+    width: 50%;
+    height: 377px;
+    position: absolute;
+    top: 12%;
+    left: 22%;
+}
+#display{
+    width: 20.39em;
+    height: 2em;
+    margin-left:3px ;
+    margin-top:3px ;
+    font-size: xx-large;
+    color:rgb(0, 0, 0);
+}
+.rows input{
+    width: 23%;
+    height: 50px;
+    margin: 5px;
+    font-size: larger;
+    background-color: rgb(252, 252, 252);
+    color: rgb(0, 0, 0);
+    border: none;
+}
+.rows input:hover{
+    background-color: aqua;
+}
+@media (max-width :600px) {
+       #display{
+        width:7.4em;
+    }
+    .rows input{
+        width: 19.5%;
+        height: 50px;
+    }
+}

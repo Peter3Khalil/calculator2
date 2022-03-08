@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>lap2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <input type="text" id="display"> 
+            <div class="rows">
+                <div class="r1">
+                    <input id="clear" type="button" onclick="clr()" value="C">
+                    <input id="percent" type="button" onclick="show('%')" value="%">
+                    <input id="delete" type="button" onclick="back()" value="&#9664;">
+                    <input id="division" type="button" onclick="show('/')" value="/">
+                </div>
+
+                <div class="r2">
+                    <input id="seven" type="button" onclick="show('7')" value="7">
+                    <input id="eight" type="button" onclick="show('8')" value="8">
+                    <input id="nine" type="button" onclick="show('9')" value="9">
+                    <input id="multiplay" type="button" onclick="show('*')" value="x">
+                </div>
+
+                <div class="r3">
+                    <input id="four" type="button" onclick="show('4')" value="4">
+                    <input id="five" type="button" onclick="show('5')" value="5">
+                    <input id="six" type="button" onclick="show('6')" value="6">
+                    <input id="diff" type="button" onclick="show('-')" value="-">
+                </div>
+
+                <div class="r4">
+                    <input id="one" type="button" onclick="show('1')" value="1">
+                    <input id="two" type="button" onclick="show('2')" value="2">
+                    <input id="three" type="button" onclick="show('3')" value="3">
+                    <input id="add" type="button" onclick="show('+')" value="+">
+                </div>
+                <div class="r5">
+                    <input id="zz" type="button" onclick="show('00')" value="00">
+                    <input id="z" type="button" onclick="show('0')" value="0">
+                    <input id="dot" type="button" onclick="show('.')" value=".">
+                    <input id="equal" type="button" onclick="sol()" value="=">
+                </div>
+            </div>
+        </div>
+    <script src="javascript.js"></script>
+    </body>
+</html>
