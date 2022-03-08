@@ -39,3 +39,12 @@
         height: 50px;
     }
 }
+@media (max-width : 585.6px){
+    #display{
+        width:6.7em;
+    }
+    .rows input{
+        width: 18.9%;
+        height: 50px;
+    }
+}
